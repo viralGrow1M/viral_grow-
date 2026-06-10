@@ -543,7 +543,7 @@
                 <label>Select Service</label>
                 <select id="orderService" onchange="updatePrice()">
                     <option value="">-- Select Service --</option>
-                    <option value="likes_5" data-price="🎉free">Likes - 5 (free)</option>
+                    <option value="likes_5" data-price="free">Likes - 5 (free)</option>
                     <option value="likes_100" data-price="30">Likes - 100 (Rs 30)</option>
                     <option value="likes_500" data-price="99">Likes - 500 (Rs 99)</option>
                     <option value="likes_1000" data-price="199">Likes - 1000 (Rs 199)</option>
@@ -574,7 +574,7 @@
                 <input type="text" id="orderPrice" readonly value="Rs 0" style="font-size: 20px; font-weight: 800; color: var(--success); text-align: center;">
             </div>
             <div class="form-group">
-                <label>Telegram Username</label>
+                <label>Instagram Username</label>
                 <input type="text" id="orderTelegram" placeholder="@your_username (for contact)">
             </div>
             <button class="btn btn-success btn-full" onclick="submitOrder()"><i class="fab fa-telegram"></i> Confirm Order</button>
